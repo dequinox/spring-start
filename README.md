@@ -1,9 +1,10 @@
 # Java Spring Assignment
 
-A simple project that parses 3 files and returns matched keys.
+A simple project that parses 3 files parallel and returns matched keys.
 
 ## Getting Started
 
+After running application our service will accept HTTP GET requests at:
 ```
 http://localhost:8080/find
 ```

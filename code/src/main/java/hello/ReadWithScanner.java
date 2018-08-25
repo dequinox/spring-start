@@ -38,13 +38,6 @@ public class ReadWithScanner {
 
     /**
      Overridable method for processing lines in different ways.
-
-     <P>This simple default implementation expects simple name-value pairs, separated by an
-     ' *= *' regex. Examples of valid input:
-     <tt>height =167cm</tt>
-     <tt>mass =  65kg</tt>
-     <tt>disposition =  "grumpy"</tt>
-     <tt>this is the name = this is the value</tt>
      */
     protected void processLine(String aLine) {
         //use a second Scanner to parse the content of each line

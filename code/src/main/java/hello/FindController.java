@@ -13,10 +13,12 @@ public class FindController {
 
     Logger logger = LoggerFactory.getLogger(FindController.class);
 
+
     @RequestMapping("/find")
     public ArrayList<String> find(@RequestParam(value="name", defaultValue="empty") String name,
                                   @RequestParam(value="first", defaultValue="0") long first,
                                   @RequestParam(value="second", defaultValue="0.0") float second) {
+        // Passing wrong parameters will log warning and the app will continue to run anyway
 
         Key key = new Key(name, first, second);
         ArrayList<String> list = new ArrayList<String>();

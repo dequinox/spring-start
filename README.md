@@ -1,6 +1,6 @@
 # Java Spring Assignment
 
-A simple project that parses 3 files and returns matched keys.
+A simple project that parses 3 files parallel and returns matched keys.
 
 ## Getting Started
 

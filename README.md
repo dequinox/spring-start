@@ -24,3 +24,6 @@ mass35.1 =  65kg
 disposition12.5 =  "grumpy"
 this is the name1.3 = this is the value
 ```
+### Notes
+
+Passing wrong parameters will log warning and return 400 Status code, but the app will contniue to listen requests.
